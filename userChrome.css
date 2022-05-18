@@ -1,0 +1,59 @@
+/* Tighten up drop-down/context/popup menu spacing */
+menupopup > menuitem, menupopup > menu {
+  padding-block: 3px !important;
+}
+:root {
+  --arrowpanel-menuitem-padding: 4px 8px !important;
+}
+
+/* Less padding for all buttons in navbar */
+#nav-bar toolbarbutton { 
+  padding-left: 1px !important;  
+  padding-right: 1px !important; 
+}
+
+/* 3px padding on the left side of the back button */
+#nav-bar toolbarbutton#back-button {
+    padding-left: 3px !important;
+}
+
+/* 3px padding on the right side of the hamburger menu */
+#nav-bar toolbarbutton#PanelUI-menu-button{
+    padding-right: 3px !important;
+}
+
+/* Less margin on the sides of the search bar */
+#nav-bar toolbaritem#urlbar-container
+{
+margin-left: 2px !important; 
+margin-right: 2px !important; 
+}
+
+/* Less padding on the side of bookmark items */
+#personal-bookmarks .bookmark-item {  
+    padding-left: 3px !important;  
+    padding-right: 3px !important;
+}
+
+/* Less padding on the tabs */
+#TabsToolbar {
+margin-top: -2px !important;
+margin-bottom: -1px !important;
+}
+
+/* Less padding on the bottom of the navbar */
+#nav-bar {
+margin-bottom: -4px !important;
+}
+
+/* Remove clutter from menus*/
+#placesContext_open {display:none!important;}
+#context-sendimage {display:none!important;}
+#context-setDesktopBackground {display:none!important;}
+#context-sep-setbackground {display:none!important;}
+#context-inspect-a11y {display:none!important;}
+#appMenu-passwords-button {display:none!important;}
+#appMenu-fxa-status2 {display:none!important;}
+#appMenu-fxa-separator {display:none!important;}
+#tabContextMenu #context_bookmarkTab {display:none!important;}
+#tabContextMenu .share-tab-url-item {display:none!important;}
